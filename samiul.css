@@ -266,3 +266,19 @@
         gap: 15px;
     }
 }
+
+@media (max-width: 600px) {
+  .overlay-content {
+    width: 90%;        /* স্ক্রিনের দুই পাশে একটু খালি জায়গা রাখবে */
+    max-height: 400px; /* বক্সের একটা নির্দিষ্ট উচ্চতা লক করে দিবে */
+    overflow-y: auto;  /* লেখা বেশি হলে বক্সের ভেতরেই স্ক্রোল হবে */
+    padding: 10;
+    margin: auto;  
+ position: ;
+margin: 200px auto; /* মাঝখানে রাখার জন্য */
+  padding-top: 10px;
+border: 1px;
+color: #fff; 
+          }  
+}
+
